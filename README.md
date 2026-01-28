@@ -3,9 +3,8 @@
 This repository contains the **backend implementation** of the Personal Blog system developed as an **extension of the midterm project**.  
 The backend provides a RESTful API for user authentication, blog posts, comments, and analytics using **Node.js, Express, and MongoDB**.
 
----
 
-## 📌 Project Overview
+## Project Overview
 
 The Personal Blog system allows users to:
 - Register and authenticate using JWT
@@ -18,9 +17,8 @@ The Personal Blog system allows users to:
 
 The backend is designed following MongoDB best practices, using **embedded and referenced documents**, **advanced update/delete operations**, **aggregation pipelines**, and **compound indexes**.
 
----
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Node.js
 - Express.js
@@ -32,7 +30,6 @@ The backend is designed following MongoDB best practices, using **embedded and r
 - cors
 - morgan
 
----
 
 ## Project Setup
 
