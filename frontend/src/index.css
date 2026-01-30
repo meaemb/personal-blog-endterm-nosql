@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
+
+
+
+:root {
+  --bg: #0e0f13;
+  --card: rgba(255, 255, 255, 0.06);
+  --border: rgba(255, 255, 255, 0.12);
+  --text: #f1f1f1;
+  --muted: #9ca3af;
+  --accent: #7c7cff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background: radial-gradient(circle at top, #1b1d29, #0e0f13 60%);
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 18px;
+  background: linear-gradient(135deg, var(--accent), #5a5aff);
+  color: white;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(124,124,255,0.3);
+}
+
+input, textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+

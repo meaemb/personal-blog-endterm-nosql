@@ -1,0 +1,25 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: #eaeaea;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* GLOBAL LAYOUT */
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* LINKS */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+

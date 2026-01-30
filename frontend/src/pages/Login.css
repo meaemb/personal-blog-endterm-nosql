@@ -1,0 +1,83 @@
+/* PAGE */
+.auth-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* INPUTS */
+.auth-card input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+
+  background: #ffffff;
+  color: #111827;             
+  font-size: 15px;
+}
+
+/* PLACEHOLDER */
+.auth-card input::placeholder {
+  color: #6b7280;
+}
+
+/* BUTTON */
+.auth-card button {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), #5a5aff);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+/* SWITCH */
+.auth-switch {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.auth-switch a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ERROR */
+.auth-error {
+  color: #ff6b6b;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* CHROME AUTOFILL FIX  */
+.auth-card input:-webkit-autofill,
+.auth-card input:-webkit-autofill:hover,
+.auth-card input:-webkit-autofill:focus,
+.auth-card input:-webkit-autofill:active {
+  -webkit-text-fill-color: #111827 !important;
+  -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+  transition: background-color 9999s ease-in-out 0s;
+}

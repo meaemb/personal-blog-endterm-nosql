@@ -1,0 +1,86 @@
+/* PAGE */
+.edit-profile-page {
+  max-width: 520px;
+  margin: 60px auto;
+}
+
+/* CARD */
+.edit-profile-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 28px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* TITLE */
+.edit-profile-card h2 {
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* AVATAR */
+.avatar-wrapper {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--accent), #5a5aff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.avatar-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-placeholder {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* HINT */
+.avatar-hint {
+  position: absolute;
+  bottom: -18px;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* INPUTS */
+.edit-profile-card input {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  color: var(--text);
+}
+
+/* LABEL */
+.edit-profile-card label {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* BUTTON */
+.edit-profile-card button {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--accent), #5a5aff);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}

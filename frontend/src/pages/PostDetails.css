@@ -1,0 +1,50 @@
+.post-details-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.post-details-page h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.post-content {
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.comments-title {
+  font-size: 22px;
+  margin: 30px 0 10px;
+}
+
+/* COMMENT FORM */
+.comment-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-form textarea {
+  min-height: 90px;
+  resize: vertical;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  color: var(--text);
+}
+
+.comment-form button {
+  align-self: flex-end;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), #5a5aff);
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}

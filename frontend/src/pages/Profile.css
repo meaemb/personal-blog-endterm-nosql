@@ -1,0 +1,142 @@
+.profile-page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  display: flex;
+  gap: 32px;
+  padding: 32px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  margin-bottom: 48px;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), #5a5aff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.profile-info h2 {
+  margin: 0;
+}
+
+.email {
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.stats {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 16px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats strong {
+  display: block;
+  font-size: 18px;
+}
+
+.edit-profile-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+.section-title {
+  margin-bottom: 16px;
+}
+
+.posts-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.post-actions a {
+  color: var(--accent);
+}
+
+.post-actions button {
+  background: #ff4d4f;
+}
+
+.avatar img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*  POST ACTION BUTTONS  */
+.post-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+/* EDIT  */
+.edit-btn {
+  padding: 8px 16px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent), #5a5aff);
+  color: #ffffff !important;          /* ← ВАЖНО */
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 1 !important;              
+  box-shadow: none;
+  border: none;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.edit-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(124,124,255,0.35);
+}
+
+
+/* DELETE */
+.delete-btn {
+  padding: 8px 16px;
+  border-radius: 12px;
+  background: #ff4d6d;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.delete-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(255, 77, 109, 0.35);
+  opacity: 0.95;
+}
+
